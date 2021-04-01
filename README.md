@@ -1,20 +1,8 @@
 ### Hi there 👋
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-18139%20lines%20of%20code-blue)
 
-**🐱 My Github Data** 
-
-> 🏆 9 Contributions in the Year 2021
- > 
-> 📦 190 Bytes Used in Github's Storage 
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 4 Public Repositories 
- > 
-> 🔑 4 Private Repositories  
- > 
 **I'm an Early 🐤** 
 
 ```text
@@ -41,8 +29,6 @@ Sunday       2 commits      ░░░░░░░░░░░░░░░░░�
 📊 **This Week I Spent My Time On** 
 
 ```text
-⌚︎ Time Zone: America/Santiago
-
 💬 Programming Languages: 
 No Activity Tracked This Week
 
@@ -66,10 +52,6 @@ JavaScript               1 repo              ████████░░░�
 
 ```
 
-
-**Timeline**
-
-![Chart not found](https://raw.githubusercontent.com/kekotek/kekotek/main/charts/bar_graph.png) 
 
 
 <!--END_SECTION:waka-->
