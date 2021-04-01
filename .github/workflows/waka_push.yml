@@ -4,7 +4,7 @@ on: push
 
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: waka push
     runs-on: ubuntu-latest
     steps:
       - uses: anmol098/waka-readme-stats@master
@@ -12,7 +12,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: kekotek # optional, it will automatically use the username of the owner of the repository who's executing the workflow.
-          LOCALE: "es_CL"
+          LOCALE: "es_ES"
           SHOW_LINES_OF_CODE: "True"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_COMMIT: "True"
