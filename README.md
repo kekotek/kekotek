@@ -16,49 +16,9 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-361%20hrs%2013%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-19%20Thousand%20lines%20of%20code-blue)
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning    215 commits    █████░░░░░░░░░░░░░░░░░░░░   20.52% 
-🌆 Daytime    460 commits    ███████████░░░░░░░░░░░░░░   43.89% 
-🌃 Evening    358 commits    ████████░░░░░░░░░░░░░░░░░   34.16% 
-🌙 Night      15 commits     ░░░░░░░░░░░░░░░░░░░░░░░░░   1.43%
-
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday       320 commits    ███████░░░░░░░░░░░░░░░░░░   30.53% 
-Tuesday      188 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.94% 
-Wednesday    144 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.74% 
-Thursday     187 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.84% 
-Friday       127 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.12% 
-Saturday     39 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   3.72% 
-Sunday       43 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   4.1%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
 
 **I Mostly Code in PowerShell** 
 
@@ -73,5 +33,5 @@ Dockerfile               1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 03/09/2022 18:40:56 UTC
+ Last Updated on 04/09/2022 18:41:28 UTC
 <!--END_SECTION:waka-->
