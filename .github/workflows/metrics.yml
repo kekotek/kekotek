@@ -14,12 +14,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: kekotek
           template: classic
-          theme: dark
+          # theme: dark
           base: header, activity, community, repositories
-          languages: yes
-          languages_limit: 6
-          calendar: yes
-          habits: yes
-          habits_charts: yes
+          # languages: yes
+          # languages_limit: 6
+          # calendar: yes
+          # habits: yes
+          # habits_charts: yes
           config_timezone: America/Santiago
           filename: github-metrics.svg
+      - name: Mildly interesting facts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          token: $${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Europe/Paris
