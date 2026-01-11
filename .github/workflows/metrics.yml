@@ -1,35 +1,47 @@
-name: Metrics
+name: GitHub Metrics
 on:
-  # Ejecutar diariamente a las 00:00 UTC
+  # Ejecutar todos los días a medianoche
   schedule: [{cron: "0 0 * * *"}]
-  # Permitir ejecución manual desde el dashboard de Actions
+  # Permitir ejecución manual
   workflow_dispatch:
-  # Ejecutar al hacer push en la rama main
+  # Ejecutar al hacer push
   push: {branches: ["master", "main"]}
 
 jobs:
-  github-metrics:
+  # ==========================================
+  # MÉTRICAS GENERALES
+  # ==========================================
+  
+  header-general:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Tu nombre de usuario de GitHub
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Configuración básica
-          user: tu-usuario-github
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
           template: classic
           base: header, activity, community, repositories, metadata
-          
-          # Configuración de salida
-          filename: github-metrics.svg
-          
-          # Plugins activados
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          
+          filename: metrics-header.svg
+          config_timezone: America/Santiago
+
+  # ==========================================
+  # LENGUAJES Y CÓDIGO
+  # ==========================================
+  
+  languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-languages.svg
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -40,27 +52,394 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          
+          plugin_languages_details: bytes-size, percentage
+
+  lines-of-code:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-lines.svg
           plugin_lines: yes
-          
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+
+  # ==========================================
+  # ACTIVIDAD Y HÁBITOS
+  # ==========================================
+  
+  habits:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-habits.svg
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          
-          plugin_notable: yes
-          plugin_notable_from: organization
-          
+          plugin_habits_charts_type: classic
+          plugin_habits_trim: yes
+
+  activity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-activity.svg
           plugin_activity: yes
           plugin_activity_limit: 5
+          plugin_activity_load: 300
           plugin_activity_days: 14
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
           plugin_activity_filter: all
-          
+
+  # ==========================================
+  # CALENDARIO Y CONTRIBUCIONES
+  # ==========================================
+  
+  isocalendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-isocalendar.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+  calendar-full:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-calendar-full.svg
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+  # ==========================================
+  # LOGROS Y ESTADÍSTICAS
+  # ==========================================
+  
+  achievements:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-achievements.svg
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 0
+
+  notable:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-notable.svg
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+          plugin_notable_repositories: yes
+
+  # ==========================================
+  # SEGUIMIENTO Y REACCIONES
+  # ==========================================
+  
+  followup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-followup.svg
           plugin_followup: yes
           plugin_followup_sections: repositories
-          
+          plugin_followup_indepth: yes
+
+  reactions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-reactions.svg
           plugin_reactions: yes
           plugin_reactions_limit: 200
           plugin_reactions_days: 14
-          
+          plugin_reactions_display: absolute
+          plugin_reactions_details: count, percentage
+
+  # ==========================================
+  # REPOSITORIOS Y ESTRELLAS
+  # ==========================================
+  
+  stargazers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-stargazers.svg
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: chartist
+
+  starlists:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-starlists.svg
+          plugin_starlists: yes
+          plugin_starlists_limit: 2
+          plugin_starlists_limit_repositories: 2
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_only: Awesome
+
+  # ==========================================
+  # PROYECTOS Y CÓDIGO
+  # ==========================================
+  
+  projects:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-projects.svg
+          plugin_projects: yes
+          plugin_projects_limit: 4
+          plugin_projects_descriptions: yes
+
+  gists:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-gists.svg
+          plugin_gists: yes
+
+  code:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-code.svg
+          plugin_code: yes
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_days: 3
+          plugin_code_visibility: public
+
+  # ==========================================
+  # TEMAS Y TÓPICOS
+  # ==========================================
+  
+  topics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-topics.svg
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 20
+          plugin_topics_sort: stars
+
+  # ==========================================
+  # DISCUSIONES Y COMUNIDAD
+  # ==========================================
+  
+  discussions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-discussions.svg
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
+
+  people:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-people.svg
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+          plugin_people_identicons: no
+          plugin_people_shuffle: yes
+
+  # ==========================================
+  # ESTADÍSTICAS AVANZADAS
+  # ==========================================
+  
+  traffic:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-traffic.svg
+          plugin_traffic: yes
+
+  repositories:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-repositories.svg
+          plugin_repositories: yes
+          plugin_repositories_order: featured, pinned, starred, random
+
+  # ==========================================
+  # EXTRAS Y DIVERSIÓN
+  # ==========================================
+  
+  fortune:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-fortune.svg
+          plugin_fortune: yes
+
+  screenshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
+          user: tu-usuario
+          template: classic
+          base: ""
+          filename: metrics-screenshot.svg
+          plugin_screenshot: yes
+          plugin_screenshot_title: Captura de pantalla
+          plugin_screenshot_url: https://github.com/${{ github.repository }}
+          plugin_screenshot_selector: body
