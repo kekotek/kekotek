@@ -20,7 +20,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: header, activity, community, repositories, metadata
           filename: metrics-header.svg
@@ -38,7 +38,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-languages.svg
@@ -62,7 +62,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-lines.svg
@@ -83,7 +83,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-habits.svg
@@ -103,7 +103,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-activity.svg
@@ -127,7 +127,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-isocalendar.svg
@@ -142,7 +142,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-calendar-full.svg
@@ -161,7 +161,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-achievements.svg
@@ -179,7 +179,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-notable.svg
@@ -200,7 +200,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-followup.svg
@@ -216,7 +216,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-reactions.svg
@@ -238,7 +238,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-stargazers.svg
@@ -254,7 +254,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-starlists.svg
@@ -277,7 +277,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-projects.svg
@@ -293,7 +293,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-gists.svg
@@ -307,7 +307,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-code.svg
@@ -329,7 +329,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-topics.svg
@@ -350,7 +350,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-discussions.svg
@@ -365,7 +365,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-people.svg
@@ -388,7 +388,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-traffic.svg
@@ -402,7 +402,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-repositories.svg
@@ -421,7 +421,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-fortune.svg
@@ -435,7 +435,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: tu-usuario
+          user: kekotek
           template: classic
           base: ""
           filename: metrics-screenshot.svg
