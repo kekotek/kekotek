@@ -1,35 +1,66 @@
 name: Metrics
 on:
-  schedule:
-    - cron: "0 6 * * *"
+  # Ejecutar diariamente a las 00:00 UTC
+  schedule: [{cron: "0 0 * * *"}]
+  # Permitir ejecución manual desde el dashboard de Actions
   workflow_dispatch:
+  # Ejecutar al hacer push en la rama main
+  push: {branches: ["master", "main"]}
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
+          # Tu nombre de usuario de GitHub
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: kekotek
+          
+          # Configuración básica
+          user: tu-usuario-github
           template: classic
-          # theme: dark
-          base: header, activity, community, repositories
-          # languages: yes
-          # languages_limit: 6
-          # calendar: yes
-          # habits: yes
-          # habits_charts: yes
-          config_timezone: America/Santiago
+          base: header, activity, community, repositories, metadata
+          
+          # Configuración de salida
           filename: github-metrics.svg
-      - name: Mildly interesting facts
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.habits.facts.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
+          
+          # Plugins activados
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          plugin_lines: yes
+          
           plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_charts: no
-          config_timezone: Europe/Paris
+          plugin_habits_charts: yes
+          
+          plugin_notable: yes
+          plugin_notable_from: organization
+          
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_days: 14
+          
