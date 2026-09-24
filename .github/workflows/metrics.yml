@@ -7,28 +7,37 @@ on:
   push:
     branches: [main]
     paths:
-      - README.md
+      - scripts/generate_contributions.py
       - .github/workflows/metrics.yml
 
 concurrency:
-  group: profile-contributions
+  group: profile-contributions-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   calendar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     permissions:
       contents: write
     steps:
-      - name: Actualizar el único gráfico del perfil
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v6
         with:
-          token: ${{ secrets.GH_TOKEN_KEKOTEK }}
-          user: kekotek
-          template: classic
-          base: ""
-          filename: metrics-calendar-full.svg
-          config_timezone: America/Santiago
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dibujar el calendario con las contribuciones reales
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN_KEKOTEK }}
+        run: python scripts/generate_contributions.py
+      - name: Guardar el gráfico actualizado
+        run: |
+          git add assets/contributions.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update contribution calendar [skip ci]'
+          git push origin "HEAD:${GITHUB_REF_NAME}"

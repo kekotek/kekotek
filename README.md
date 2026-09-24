@@ -16,6 +16,4 @@ Soy papá de Bruno y tengo un perro llamado Popi. Me encanta cocinar, andar en b
 - **Trekking:** mi mayor logro es el Circuito C de Torres del Paine. También he recorrido Conguillío, San Sebastián en Huerquehue, El Cañi y Alpehue.
 - **Viajes:** disfruto conocer nuevos lugares; comparto más de mi mundo en [kekotek.cl](https://kekotek.cl/).
 
-## Aportes en repositorios
-
-![Calendario de contribuciones de kekotek en GitHub](metrics-calendar-full.svg)
+![Calendario de contribuciones de kekotek en GitHub](assets/contributions.svg)
