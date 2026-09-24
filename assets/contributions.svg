@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="928" height="230" viewBox="0 0 928 230" role="img" aria-labelledby="title description">
-<title id="title">256 contribuciones en 2026</title>
+<title id="title">258 contribuciones en 2026</title>
 <desc id="description">Calendario de contribuciones de kekotek. Cada cuadrado corresponde a un día; el verde indica su actividad. Actualizado el 24 sep 2026. Los días futuros no tienen datos.</desc>
 <style>
 svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
@@ -8,7 +8,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 @media(prefers-color-scheme:light){.bg{fill:#ffffff;stroke:#d0d7de}.heading{fill:#1f2328}.label,.footer{fill:#656d76}.day{stroke:#1f232808}.l0,.future{fill:#ebedf0}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}}
 </style>
 <rect class="bg" x=".5" y=".5" width="927" height="229" rx="9"/>
-<text class="heading" x="24" y="33">256 contribuciones en 2026</text>
+<text class="heading" x="24" y="33">258 contribuciones en 2026</text>
 <text class="label" x="58" y="62">Ene</text>
 <text class="label" x="138" y="62">Feb</text>
 <text class="label" x="202" y="62">Mar</text>
@@ -290,7 +290,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l2" x="666" y="92" width="12" height="12" rx="2"><title>2026-09-21: 2 contribuciones</title></rect>
 <rect class="day l2" x="666" y="108" width="12" height="12" rx="2"><title>2026-09-22: 2 contribuciones</title></rect>
 <rect class="day l4" x="666" y="124" width="12" height="12" rx="2"><title>2026-09-23: 10 contribuciones</title></rect>
-<rect class="day l3" x="666" y="140" width="12" height="12" rx="2"><title>2026-09-24: 5 contribuciones</title></rect>
+<rect class="day l4" x="666" y="140" width="12" height="12" rx="2"><title>2026-09-24: 7 contribuciones</title></rect>
 <rect class="day future" x="666" y="156" width="12" height="12" rx="2"><title>2026-09-25: fecha futura</title></rect>
 <rect class="day future" x="666" y="172" width="12" height="12" rx="2"><title>2026-09-26: fecha futura</title></rect>
 <rect class="day future" x="682" y="76" width="12" height="12" rx="2"><title>2026-09-27: fecha futura</title></rect>
