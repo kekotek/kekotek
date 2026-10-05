@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="928" height="230" viewBox="0 0 928 230" role="img" aria-labelledby="title description">
-<title id="title">297 contribuciones en 2026</title>
-<desc id="description">Calendario de contribuciones de kekotek. Cada cuadrado corresponde a un día; el verde indica su actividad. Actualizado el 4 oct 2026. Los días futuros no tienen datos.</desc>
+<title id="title">298 contribuciones en 2026</title>
+<desc id="description">Calendario de contribuciones de kekotek. Cada cuadrado corresponde a un día; el verde indica su actividad. Actualizado el 5 oct 2026. Los días futuros no tienen datos.</desc>
 <style>
 svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
 .bg{fill:#0d1117;stroke:#30363d}.heading{fill:#f0f6fc;font-size:18px;font-weight:600}.label{fill:#8b949e;font-size:11px}.footer{fill:#8b949e;font-size:10px}
@@ -8,7 +8,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 @media(prefers-color-scheme:light){.bg{fill:#ffffff;stroke:#d0d7de}.heading{fill:#1f2328}.label,.footer{fill:#656d76}.day{stroke:#1f232808}.l0,.future{fill:#ebedf0}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}}
 </style>
 <rect class="bg" x=".5" y=".5" width="927" height="229" rx="9"/>
-<text class="heading" x="24" y="33">297 contribuciones en 2026</text>
+<text class="heading" x="24" y="33">298 contribuciones en 2026</text>
 <text class="label" x="58" y="62">Ene</text>
 <text class="label" x="138" y="62">Feb</text>
 <text class="label" x="202" y="62">Mar</text>
@@ -300,8 +300,8 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l2" x="682" y="140" width="12" height="12" rx="2"><title>2026-10-01: 4 contribuciones</title></rect>
 <rect class="day l3" x="682" y="156" width="12" height="12" rx="2"><title>2026-10-02: 9 contribuciones</title></rect>
 <rect class="day l0" x="682" y="172" width="12" height="12" rx="2"><title>2026-10-03: 0 contribuciones</title></rect>
-<rect class="day l0" x="698" y="76" width="12" height="12" rx="2"><title>2026-10-04: 0 contribuciones</title></rect>
-<rect class="day future" x="698" y="92" width="12" height="12" rx="2"><title>2026-10-05: fecha futura</title></rect>
+<rect class="day l1" x="698" y="76" width="12" height="12" rx="2"><title>2026-10-04: 1 contribución</title></rect>
+<rect class="day l0" x="698" y="92" width="12" height="12" rx="2"><title>2026-10-05: 0 contribuciones</title></rect>
 <rect class="day future" x="698" y="108" width="12" height="12" rx="2"><title>2026-10-06: fecha futura</title></rect>
 <rect class="day future" x="698" y="124" width="12" height="12" rx="2"><title>2026-10-07: fecha futura</title></rect>
 <rect class="day future" x="698" y="140" width="12" height="12" rx="2"><title>2026-10-08: fecha futura</title></rect>
@@ -389,7 +389,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day future" x="890" y="108" width="12" height="12" rx="2"><title>2026-12-29: fecha futura</title></rect>
 <rect class="day future" x="890" y="124" width="12" height="12" rx="2"><title>2026-12-30: fecha futura</title></rect>
 <rect class="day future" x="890" y="140" width="12" height="12" rx="2"><title>2026-12-31: fecha futura</title></rect>
-<text class="footer" x="24" y="210">Actualizado el 4 oct 2026</text>
+<text class="footer" x="24" y="210">Actualizado el 5 oct 2026</text>
 <text class="label" x="728" y="210">Menos</text>
 <rect class="day l0" x="768" y="200" width="12" height="12" rx="2"/>
 <rect class="day l1" x="784" y="200" width="12" height="12" rx="2"/>
