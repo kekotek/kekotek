@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="928" height="230" viewBox="0 0 928 230" role="img" aria-labelledby="title description">
-<title id="title">317 contribuciones en 2026</title>
-<desc id="description">Calendario de contribuciones de kekotek. Cada cuadrado corresponde a un día; el verde indica su actividad. Actualizado el 8 oct 2026. Los días futuros no tienen datos.</desc>
+<title id="title">327 contribuciones en 2026</title>
+<desc id="description">Calendario de contribuciones de kekotek. Cada cuadrado corresponde a un día; el verde indica su actividad. Actualizado el 9 oct 2026. Los días futuros no tienen datos.</desc>
 <style>
 svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
 .bg{fill:#0d1117;stroke:#30363d}.heading{fill:#f0f6fc;font-size:18px;font-weight:600}.label{fill:#8b949e;font-size:11px}.footer{fill:#8b949e;font-size:10px}
@@ -8,7 +8,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 @media(prefers-color-scheme:light){.bg{fill:#ffffff;stroke:#d0d7de}.heading{fill:#1f2328}.label,.footer{fill:#656d76}.day{stroke:#1f232808}.l0,.future{fill:#ebedf0}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}}
 </style>
 <rect class="bg" x=".5" y=".5" width="927" height="229" rx="9"/>
-<text class="heading" x="24" y="33">317 contribuciones en 2026</text>
+<text class="heading" x="24" y="33">327 contribuciones en 2026</text>
 <text class="label" x="58" y="62">Ene</text>
 <text class="label" x="138" y="62">Feb</text>
 <text class="label" x="202" y="62">Mar</text>
@@ -37,8 +37,8 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l1" x="90" y="76" width="12" height="12" rx="2"><title>2026-01-11: 2 contribuciones</title></rect>
 <rect class="day l1" x="90" y="92" width="12" height="12" rx="2"><title>2026-01-12: 1 contribución</title></rect>
 <rect class="day l1" x="90" y="108" width="12" height="12" rx="2"><title>2026-01-13: 1 contribución</title></rect>
-<rect class="day l1" x="90" y="124" width="12" height="12" rx="2"><title>2026-01-14: 3 contribuciones</title></rect>
-<rect class="day l2" x="90" y="140" width="12" height="12" rx="2"><title>2026-01-15: 6 contribuciones</title></rect>
+<rect class="day l2" x="90" y="124" width="12" height="12" rx="2"><title>2026-01-14: 3 contribuciones</title></rect>
+<rect class="day l3" x="90" y="140" width="12" height="12" rx="2"><title>2026-01-15: 6 contribuciones</title></rect>
 <rect class="day l1" x="90" y="156" width="12" height="12" rx="2"><title>2026-01-16: 1 contribución</title></rect>
 <rect class="day l0" x="90" y="172" width="12" height="12" rx="2"><title>2026-01-17: 0 contribuciones</title></rect>
 <rect class="day l0" x="106" y="76" width="12" height="12" rx="2"><title>2026-01-18: 0 contribuciones</title></rect>
@@ -67,7 +67,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l1" x="154" y="108" width="12" height="12" rx="2"><title>2026-02-10: 1 contribución</title></rect>
 <rect class="day l1" x="154" y="124" width="12" height="12" rx="2"><title>2026-02-11: 1 contribución</title></rect>
 <rect class="day l0" x="154" y="140" width="12" height="12" rx="2"><title>2026-02-12: 0 contribuciones</title></rect>
-<rect class="day l1" x="154" y="156" width="12" height="12" rx="2"><title>2026-02-13: 3 contribuciones</title></rect>
+<rect class="day l2" x="154" y="156" width="12" height="12" rx="2"><title>2026-02-13: 3 contribuciones</title></rect>
 <rect class="day l0" x="154" y="172" width="12" height="12" rx="2"><title>2026-02-14: 0 contribuciones</title></rect>
 <rect class="day l0" x="170" y="76" width="12" height="12" rx="2"><title>2026-02-15: 0 contribuciones</title></rect>
 <rect class="day l1" x="170" y="92" width="12" height="12" rx="2"><title>2026-02-16: 1 contribución</title></rect>
@@ -115,7 +115,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l1" x="266" y="92" width="12" height="12" rx="2"><title>2026-03-30: 1 contribución</title></rect>
 <rect class="day l1" x="266" y="108" width="12" height="12" rx="2"><title>2026-03-31: 2 contribuciones</title></rect>
 <rect class="day l1" x="266" y="124" width="12" height="12" rx="2"><title>2026-04-01: 1 contribución</title></rect>
-<rect class="day l1" x="266" y="140" width="12" height="12" rx="2"><title>2026-04-02: 3 contribuciones</title></rect>
+<rect class="day l2" x="266" y="140" width="12" height="12" rx="2"><title>2026-04-02: 3 contribuciones</title></rect>
 <rect class="day l0" x="266" y="156" width="12" height="12" rx="2"><title>2026-04-03: 0 contribuciones</title></rect>
 <rect class="day l0" x="266" y="172" width="12" height="12" rx="2"><title>2026-04-04: 0 contribuciones</title></rect>
 <rect class="day l0" x="282" y="76" width="12" height="12" rx="2"><title>2026-04-05: 0 contribuciones</title></rect>
@@ -127,13 +127,13 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="282" y="172" width="12" height="12" rx="2"><title>2026-04-11: 0 contribuciones</title></rect>
 <rect class="day l1" x="298" y="76" width="12" height="12" rx="2"><title>2026-04-12: 1 contribución</title></rect>
 <rect class="day l2" x="298" y="92" width="12" height="12" rx="2"><title>2026-04-13: 4 contribuciones</title></rect>
-<rect class="day l1" x="298" y="108" width="12" height="12" rx="2"><title>2026-04-14: 3 contribuciones</title></rect>
+<rect class="day l2" x="298" y="108" width="12" height="12" rx="2"><title>2026-04-14: 3 contribuciones</title></rect>
 <rect class="day l1" x="298" y="124" width="12" height="12" rx="2"><title>2026-04-15: 2 contribuciones</title></rect>
 <rect class="day l1" x="298" y="140" width="12" height="12" rx="2"><title>2026-04-16: 2 contribuciones</title></rect>
 <rect class="day l0" x="298" y="156" width="12" height="12" rx="2"><title>2026-04-17: 0 contribuciones</title></rect>
 <rect class="day l0" x="298" y="172" width="12" height="12" rx="2"><title>2026-04-18: 0 contribuciones</title></rect>
 <rect class="day l0" x="314" y="76" width="12" height="12" rx="2"><title>2026-04-19: 0 contribuciones</title></rect>
-<rect class="day l1" x="314" y="92" width="12" height="12" rx="2"><title>2026-04-20: 3 contribuciones</title></rect>
+<rect class="day l2" x="314" y="92" width="12" height="12" rx="2"><title>2026-04-20: 3 contribuciones</title></rect>
 <rect class="day l0" x="314" y="108" width="12" height="12" rx="2"><title>2026-04-21: 0 contribuciones</title></rect>
 <rect class="day l0" x="314" y="124" width="12" height="12" rx="2"><title>2026-04-22: 0 contribuciones</title></rect>
 <rect class="day l0" x="314" y="140" width="12" height="12" rx="2"><title>2026-04-23: 0 contribuciones</title></rect>
@@ -141,7 +141,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="314" y="172" width="12" height="12" rx="2"><title>2026-04-25: 0 contribuciones</title></rect>
 <rect class="day l0" x="330" y="76" width="12" height="12" rx="2"><title>2026-04-26: 0 contribuciones</title></rect>
 <rect class="day l0" x="330" y="92" width="12" height="12" rx="2"><title>2026-04-27: 0 contribuciones</title></rect>
-<rect class="day l1" x="330" y="108" width="12" height="12" rx="2"><title>2026-04-28: 3 contribuciones</title></rect>
+<rect class="day l2" x="330" y="108" width="12" height="12" rx="2"><title>2026-04-28: 3 contribuciones</title></rect>
 <rect class="day l1" x="330" y="124" width="12" height="12" rx="2"><title>2026-04-29: 1 contribución</title></rect>
 <rect class="day l1" x="330" y="140" width="12" height="12" rx="2"><title>2026-04-30: 1 contribución</title></rect>
 <rect class="day l0" x="330" y="156" width="12" height="12" rx="2"><title>2026-05-01: 0 contribuciones</title></rect>
@@ -168,7 +168,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="378" y="156" width="12" height="12" rx="2"><title>2026-05-22: 0 contribuciones</title></rect>
 <rect class="day l0" x="378" y="172" width="12" height="12" rx="2"><title>2026-05-23: 0 contribuciones</title></rect>
 <rect class="day l0" x="394" y="76" width="12" height="12" rx="2"><title>2026-05-24: 0 contribuciones</title></rect>
-<rect class="day l1" x="394" y="92" width="12" height="12" rx="2"><title>2026-05-25: 3 contribuciones</title></rect>
+<rect class="day l2" x="394" y="92" width="12" height="12" rx="2"><title>2026-05-25: 3 contribuciones</title></rect>
 <rect class="day l0" x="394" y="108" width="12" height="12" rx="2"><title>2026-05-26: 0 contribuciones</title></rect>
 <rect class="day l2" x="394" y="124" width="12" height="12" rx="2"><title>2026-05-27: 4 contribuciones</title></rect>
 <rect class="day l1" x="394" y="140" width="12" height="12" rx="2"><title>2026-05-28: 1 contribución</title></rect>
@@ -177,7 +177,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="410" y="76" width="12" height="12" rx="2"><title>2026-05-31: 0 contribuciones</title></rect>
 <rect class="day l1" x="410" y="92" width="12" height="12" rx="2"><title>2026-06-01: 2 contribuciones</title></rect>
 <rect class="day l1" x="410" y="108" width="12" height="12" rx="2"><title>2026-06-02: 1 contribución</title></rect>
-<rect class="day l1" x="410" y="124" width="12" height="12" rx="2"><title>2026-06-03: 3 contribuciones</title></rect>
+<rect class="day l2" x="410" y="124" width="12" height="12" rx="2"><title>2026-06-03: 3 contribuciones</title></rect>
 <rect class="day l0" x="410" y="140" width="12" height="12" rx="2"><title>2026-06-04: 0 contribuciones</title></rect>
 <rect class="day l1" x="410" y="156" width="12" height="12" rx="2"><title>2026-06-05: 2 contribuciones</title></rect>
 <rect class="day l0" x="410" y="172" width="12" height="12" rx="2"><title>2026-06-06: 0 contribuciones</title></rect>
@@ -277,7 +277,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="634" y="108" width="12" height="12" rx="2"><title>2026-09-08: 0 contribuciones</title></rect>
 <rect class="day l3" x="634" y="124" width="12" height="12" rx="2"><title>2026-09-09: 7 contribuciones</title></rect>
 <rect class="day l1" x="634" y="140" width="12" height="12" rx="2"><title>2026-09-10: 1 contribución</title></rect>
-<rect class="day l1" x="634" y="156" width="12" height="12" rx="2"><title>2026-09-11: 3 contribuciones</title></rect>
+<rect class="day l2" x="634" y="156" width="12" height="12" rx="2"><title>2026-09-11: 3 contribuciones</title></rect>
 <rect class="day l0" x="634" y="172" width="12" height="12" rx="2"><title>2026-09-12: 0 contribuciones</title></rect>
 <rect class="day l0" x="650" y="76" width="12" height="12" rx="2"><title>2026-09-13: 0 contribuciones</title></rect>
 <rect class="day l0" x="650" y="92" width="12" height="12" rx="2"><title>2026-09-14: 0 contribuciones</title></rect>
@@ -295,17 +295,17 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day l0" x="666" y="172" width="12" height="12" rx="2"><title>2026-09-26: 0 contribuciones</title></rect>
 <rect class="day l2" x="682" y="76" width="12" height="12" rx="2"><title>2026-09-27: 5 contribuciones</title></rect>
 <rect class="day l2" x="682" y="92" width="12" height="12" rx="2"><title>2026-09-28: 5 contribuciones</title></rect>
-<rect class="day l1" x="682" y="108" width="12" height="12" rx="2"><title>2026-09-29: 3 contribuciones</title></rect>
+<rect class="day l2" x="682" y="108" width="12" height="12" rx="2"><title>2026-09-29: 3 contribuciones</title></rect>
 <rect class="day l2" x="682" y="124" width="12" height="12" rx="2"><title>2026-09-30: 5 contribuciones</title></rect>
 <rect class="day l2" x="682" y="140" width="12" height="12" rx="2"><title>2026-10-01: 4 contribuciones</title></rect>
-<rect class="day l3" x="682" y="156" width="12" height="12" rx="2"><title>2026-10-02: 9 contribuciones</title></rect>
+<rect class="day l4" x="682" y="156" width="12" height="12" rx="2"><title>2026-10-02: 9 contribuciones</title></rect>
 <rect class="day l0" x="682" y="172" width="12" height="12" rx="2"><title>2026-10-03: 0 contribuciones</title></rect>
 <rect class="day l1" x="698" y="76" width="12" height="12" rx="2"><title>2026-10-04: 1 contribución</title></rect>
-<rect class="day l3" x="698" y="92" width="12" height="12" rx="2"><title>2026-10-05: 9 contribuciones</title></rect>
-<rect class="day l2" x="698" y="108" width="12" height="12" rx="2"><title>2026-10-06: 6 contribuciones</title></rect>
+<rect class="day l4" x="698" y="92" width="12" height="12" rx="2"><title>2026-10-05: 9 contribuciones</title></rect>
+<rect class="day l3" x="698" y="108" width="12" height="12" rx="2"><title>2026-10-06: 6 contribuciones</title></rect>
 <rect class="day l2" x="698" y="124" width="12" height="12" rx="2"><title>2026-10-07: 4 contribuciones</title></rect>
-<rect class="day l0" x="698" y="140" width="12" height="12" rx="2"><title>2026-10-08: 0 contribuciones</title></rect>
-<rect class="day future" x="698" y="156" width="12" height="12" rx="2"><title>2026-10-09: fecha futura</title></rect>
+<rect class="day l4" x="698" y="140" width="12" height="12" rx="2"><title>2026-10-08: 10 contribuciones</title></rect>
+<rect class="day l0" x="698" y="156" width="12" height="12" rx="2"><title>2026-10-09: 0 contribuciones</title></rect>
 <rect class="day future" x="698" y="172" width="12" height="12" rx="2"><title>2026-10-10: fecha futura</title></rect>
 <rect class="day future" x="714" y="76" width="12" height="12" rx="2"><title>2026-10-11: fecha futura</title></rect>
 <rect class="day future" x="714" y="92" width="12" height="12" rx="2"><title>2026-10-12: fecha futura</title></rect>
@@ -389,7 +389,7 @@ svg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans
 <rect class="day future" x="890" y="108" width="12" height="12" rx="2"><title>2026-12-29: fecha futura</title></rect>
 <rect class="day future" x="890" y="124" width="12" height="12" rx="2"><title>2026-12-30: fecha futura</title></rect>
 <rect class="day future" x="890" y="140" width="12" height="12" rx="2"><title>2026-12-31: fecha futura</title></rect>
-<text class="footer" x="24" y="210">Actualizado el 8 oct 2026</text>
+<text class="footer" x="24" y="210">Actualizado el 9 oct 2026</text>
 <text class="label" x="728" y="210">Menos</text>
 <rect class="day l0" x="768" y="200" width="12" height="12" rx="2"/>
 <rect class="day l1" x="784" y="200" width="12" height="12" rx="2"/>
